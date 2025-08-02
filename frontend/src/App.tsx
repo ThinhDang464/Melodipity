@@ -11,8 +11,11 @@ function App() {
       <header>
         {/*If user signed out show sign in button */}
         <SignedOut>
-          <SignInButton />
+          <SignInButton>
+            <Button>Sign In</Button>
+          </SignInButton>
         </SignedOut>
+
         {/*User signed in show Userbutton */}
         <SignedIn>
           <UserButton />
